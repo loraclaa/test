@@ -8,6 +8,8 @@ public class DataMod {
 	private int length;
 	private short type;
 	
+	private short cntvTag;
+	
 	public DataMod() {
 		// TODO Auto-generated constructor stub
 	}
@@ -42,6 +44,14 @@ public class DataMod {
 
 	public void setType(short type) {
 		this.type = type;
+	}
+
+	public short getCntvTag() {
+		return cntvTag;
+	}
+
+	public void setCntvTag(short cntvTag) {
+		this.cntvTag = cntvTag;
 	}
 	
 	
