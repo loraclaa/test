@@ -6,6 +6,7 @@ public class DataMod {
 	private String content;
 	private String name;
 	private int length;
+	private short type;
 	
 	public DataMod() {
 		// TODO Auto-generated constructor stub
@@ -33,6 +34,14 @@ public class DataMod {
 
 	public void setLength(int length) {
 		this.length = length;
+	}
+
+	public short getType() {
+		return type;
+	}
+
+	public void setType(short type) {
+		this.type = type;
 	}
 	
 	
